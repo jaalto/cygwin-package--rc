@@ -1,0 +1,2 @@
+tag1: rc
+  http://packages.debian.org/unstable/rc pregexp:tar.gz file:rc_1.7.1.orig.tar.gz new: x:

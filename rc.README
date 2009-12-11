@@ -1,0 +1,95 @@
+rc
+------------------------------------------
+
+An implementation of the AT&T Plan 9 shell
+
+A command interpreter and programming language similar to sh(1). It
+is based on the AT&T Plan 9 shell of the same name. The shell
+offers a C-like syntax (much more so than the C shell), and a
+powerful mechanism for manipulating variables. It is reasonably
+small and reasonably fast, especially when compared to contemporary
+shells. Its use is intended to be interactive, but the language
+lends itself well to scripts.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/rc
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Decklin Foster <decklin@red-bean.com>
+  Bugs:
+
+License:
+  Custom
+
+Language:
+  C
+
+[License "Custom"]
+
+/*
+ * Copyright 1991 Byron Rakitzis.  All rights reserved.
+ *
+ * This software is not subject to any license of the American Telephone
+ * and Telegraph Company or of the Regents of the University of California.
+ *
+ * Permission is granted to anyone to use this software for any purpose on
+ * any computer system, and to alter it and redistribute it freely, subject
+ * to the following restrictions:
+ *
+ * 1. The author is not responsible for the consequences of use of this
+ *    software, no matter how awful, even if they arise from flaws in it.
+ *
+ * 2. The origin of this software must not be misrepresented, either by
+ *    explicit claim or by omission.  Since few users ever read sources,
+ *    credits must appear in the documentation.
+ *
+ * 3. Altered versions must be plainly marked as such, and must not be
+ *    misrepresented as being the original software.  Since few users
+ *    ever read sources, credits must appear in the documentation.
+ *
+ * 4. This notice may not be removed or altered.
+ *
+ *    [this copyright notice is adapted from Henry Spencer's
+ *    "awf" copyright notice.]
+ */
+
+------------------------------------------
+
+Build instructions:
+  unpack rc-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./rc*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 1.7.1-1 -----
+- Initial release 2009-12-10 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2009 Jari Aalto; Licensed under GPL v2 or later
